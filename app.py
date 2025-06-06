@@ -18,8 +18,6 @@ def compute_dist(lon1: float, lat1: float, lon2: float, lat2: float) -> float:
     c = 2 * atan2(sqrt(a), sqrt(1-a))
     return R * c
 
-# @TODO
-# cache stuff
 st.title("(Ill-trained) ride fare estimator")
 st.markdown("## Please fill in with your needs:")
 
